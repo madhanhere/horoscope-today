@@ -1,0 +1,82 @@
+[
+	{
+		"data": [
+			{
+				"text": "yesterday ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			},
+			{
+				"text": " yesterday ",
+				"userDefined": false
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "horoscope yesterday for ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "what was horoscope yesterday  for ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "How was yesterday  for ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]

@@ -1,0 +1,30 @@
+{
+  "name": "Horoscope today",
+  "version": "2.0.2",
+  "description": "A sample voice app that tell you horoscope. It is created using the Jovo Framework",
+  "main": "src/index.js",
+  "dependencies": {
+    "jovo-db-filedb": "^2.0.2",
+    "jovo-framework": "^2.0.15",
+    "jovo-platform-alexa": "^2.0.2",
+    "jovo-platform-googleassistant": "^2.0.2",
+    "jovo-plugin-debugger": "^2.0.2",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-run-command": "0.0.9",
+    "gulp-zip": "^4.2.0",
+    "jest": "^23.6.0"
+  },
+  "scripts": {
+    "tsc": "node -v",
+    "test": "jest",
+    "bundle": "gulp --gulpfile node_modules/jovo-framework/gulpfile.js --cwd ./",
+    "start": "cd src && node index.js --webhook",
+    "launch": "npm start -- --launch"
+  },
+  "author": "Madhan kumar Boominathan",
+  "license": "ISC"
+}

@@ -1,0 +1,119 @@
+{
+	"invocation": "horoscope today",
+	"intents": [
+		{
+			"name": "WelocmeIntent",
+			"phrases": [
+				"today horoscope",
+				"tomorrow horoscope",
+				"yesterday horoscope"
+			]
+		},
+		{
+			"name": "YesterDayHoroscopeIntent",
+			"phrases": [
+				"yesterday {sign}",
+				"{sign} yesterday ",
+				"horoscope yesterday for {sign}",
+				"what was horoscope yesterday  for {sign}",
+				"How was yesterday  for {sign}"
+			],
+			"inputs": [
+				{
+					"name": "sign",
+					"type": {
+						"alexa": "AMAZON.SearchQuery",
+						"dialogflow": "@sys.given-name"
+					}
+				}
+			]
+		},
+		{
+			"name": "TodayHoroscopeIntent",
+			"phrases": [
+				"{sign}",
+				"horoscope today for {sign}",
+				"what is horoscope today for {sign}",
+				"How is today for {sign}",
+				"tell me today about {sign}"
+			],
+			"inputs": [
+				{
+					"name": "sign",
+					"type": {
+						"alexa": "AMAZON.SearchQuery",
+						"dialogflow": "@sys.given-name"
+					}
+				}
+			]
+		},
+		{
+			"name": "TomorrowHoroscopeIntent",
+			"phrases": [
+				"tomorrow {sign}",
+				"{sign} tomorrow",
+				"horoscope tomorrow for {sign}",
+				"what is horoscope tomorrow for {sign}",
+				"How is tomorrow for {sign}",
+				"tell me tomorrow about {sign}"
+			],
+			"inputs": [
+				{
+					"name": "sign",
+					"type": {
+						"alexa": "AMAZON.SearchQuery",
+						"dialogflow": "@sys.given-name"
+					}
+				}
+			]
+		},
+		{
+			"name": "CreditsIntent",
+			"phrases": [
+				"credits",
+				"credit for the skill",
+				"credit for the creator"
+			]
+		}
+	],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"dialogflow": {
+		"intents": [
+			{
+				"name": "Default Fallback Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"fallbackIntent": true
+			},
+			{
+				"name": "Default Welcome Intent",
+				"auto": true,
+				"webhookUsed": true,
+				"events": [
+					{
+						"name": "WELCOME"
+					}
+				]
+			}
+		]
+	}
+}

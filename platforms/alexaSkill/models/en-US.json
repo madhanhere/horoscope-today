@@ -1,0 +1,87 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "horoscope today",
+			"types": [],
+			"intents": [
+				{
+					"name": "WelocmeIntent",
+					"samples": [
+						"today horoscope",
+						"tomorrow horoscope",
+						"yesterday horoscope"
+					]
+				},
+				{
+					"name": "YesterDayHoroscopeIntent",
+					"samples": [
+						"yesterday {sign}",
+						"{sign} yesterday ",
+						"horoscope yesterday for {sign}",
+						"what was horoscope yesterday  for {sign}",
+						"How was yesterday  for {sign}"
+					],
+					"slots": [
+						{
+							"name": "sign",
+							"type": "AMAZON.SearchQuery"
+						}
+					]
+				},
+				{
+					"name": "TodayHoroscopeIntent",
+					"samples": [
+						"{sign}",
+						"horoscope today for {sign}",
+						"what is horoscope today for {sign}",
+						"How is today for {sign}",
+						"tell me today about {sign}"
+					],
+					"slots": [
+						{
+							"name": "sign",
+							"type": "AMAZON.SearchQuery"
+						}
+					]
+				},
+				{
+					"name": "TomorrowHoroscopeIntent",
+					"samples": [
+						"tomorrow {sign}",
+						"{sign} tomorrow",
+						"horoscope tomorrow for {sign}",
+						"what is horoscope tomorrow for {sign}",
+						"How is tomorrow for {sign}",
+						"tell me tomorrow about {sign}"
+					],
+					"slots": [
+						{
+							"name": "sign",
+							"type": "AMAZON.SearchQuery"
+						}
+					]
+				},
+				{
+					"name": "CreditsIntent",
+					"samples": [
+						"credits",
+						"credit for the skill",
+						"credit for the creator"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}

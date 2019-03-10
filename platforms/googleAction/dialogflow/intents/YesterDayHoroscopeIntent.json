@@ -1,0 +1,17 @@
+{
+	"name": "YesterDayHoroscopeIntent",
+	"auto": true,
+	"webhookUsed": true,
+	"responses": [
+		{
+			"parameters": [
+				{
+					"isList": false,
+					"name": "sign",
+					"value": "$sign",
+					"dataType": "@sys.given-name"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,78 @@
+[
+	{
+		"data": [
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "horoscope today for ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "what is horoscope today for ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "How is today for ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	},
+	{
+		"data": [
+			{
+				"text": "tell me today about ",
+				"userDefined": false
+			},
+			{
+				"text": "sign",
+				"userDefined": true,
+				"alias": "sign",
+				"meta": "@sys.given-name"
+			}
+		],
+		"isTemplate": false,
+		"count": 0
+	}
+]
